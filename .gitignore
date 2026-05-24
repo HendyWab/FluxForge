@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv_issueflow_ai
+
+# Node
+node_modules/
+dist/
+
+# Env
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+postgres_data/
+redis_data/
+
+# Logs
+*.log
