@@ -1,10 +1,10 @@
 import MainLayout from "./layouts/MainLayout"
-import DashboardPage from "./pages/dashboard/DashboardPage"
+import BoardPage from "./pages/boards/BoardPage"
 
 function App() {
   return (
     <MainLayout>
-      <DashboardPage />
+      <BoardPage />
     </MainLayout>
   )
 }
