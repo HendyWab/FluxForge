@@ -6,7 +6,7 @@ export default function DashboardPage() {
       </h1>
 
       <p className="mt-2 text-zinc-400">
-        Welcome to FluxForge AI
+        Welcome to ChendyForge AI
       </p>
 
       <div className="mt-8 grid grid-cols-3 gap-6">

@@ -1,134 +1,138 @@
-# FluxForge
+# ChendyForge
 
 Forge the future of developer collaboration.
 
-Modern AI-powered issue tracking and realtime workflow management platform built for engineering teams, open-source communities, and modern software organizations.
+Modern AI-powered issue tracking, realtime collaboration, and engineering workflow platform built for modern software teams.
+
+![ChendyForge Board Preview](docs/screenshots/board-preview.png)
 
 ---
 
-![FluxForge Board Preview](docs/screenshots/board-preview.png)
+## What is ChendyForge?
 
----
+ChendyForge is an AI-powered engineering collaboration platform that combines issue tracking, workflow automation, realtime collaboration, analytics, and developer productivity tooling into a unified workspace.
 
-## Overview
+Designed as a flagship open-source project, ChendyForge showcases modern frontend engineering, scalable backend architecture, realtime systems, AI-assisted workflows, and cloud-native infrastructure.
 
-FluxForge is a modern collaborative engineering platform designed to streamline software project management, realtime team coordination, and AI-assisted development workflows.
-
-The platform combines:
-
-- issue tracking
-- Kanban workflow management
-- realtime collaboration
-- AI-assisted issue intelligence
-- analytics & observability
-- technical discussions
-- project documentation
-- developer productivity systems
-
-FluxForge is designed as a production-grade full-stack engineering platform showcasing scalable architecture, realtime systems, modern frontend engineering, and cloud-native backend development.
+Built by HendyWab.
 
 ---
 
 # Features
 
-## Realtime Kanban Workflows
+## Workflow Management
 
-- Drag & drop sprint boards
-- Backlog management
-- Realtime issue movement
-- Sprint planning workflows
-- Team collaboration boards
-
----
-
-## AI-Assisted Issue Intelligence
-
-- AI-generated issue summaries
-- Duplicate issue detection
-- Priority recommendations
-- Sprint workload estimation
-- Risk analysis
-- Issue clustering
+* Kanban boards
+* Sprint planning
+* Backlog management
+* Project milestones
+* Issue prioritization
+* Team collaboration
 
 ---
 
-## Collaborative Engineering Workspace
+## Issue Tracking
 
-- Threaded issue comments
-- Developer discussions
-- Team activity feeds
-- Live notifications
-- Presence indicators
-- Realtime synchronization
+* Create, update, and manage issues
+* Labels and priorities
+* Assignments
+* Due dates
+* Milestones
+* Threaded discussions
+* Markdown support
 
 ---
 
-## Developer Documentation System
+## Realtime Collaboration
 
-- Markdown wiki
-- Architecture notes
-- API documentation
-- Release notes
-- Engineering guides
+* WebSocket-powered synchronization
+* Live board updates
+* Realtime notifications
+* Team activity feeds
+* Presence indicators
+* Collaborative workflows
+
+---
+
+## AI-Assisted Engineering
+
+* Issue summarization
+* Duplicate issue detection
+* Priority recommendations
+* Sprint planning assistance
+* Risk estimation
+* Issue clustering
+
+---
+
+## Documentation & Knowledge Base
+
+* Project wiki
+* Architecture documentation
+* API documentation
+* Engineering guides
+* Release notes
+* Team knowledge sharing
 
 ---
 
 ## Analytics & Observability
 
-- Sprint velocity
-- Project health metrics
-- Contributor analytics
-- Release progress tracking
-- Team productivity insights
+* Sprint velocity
+* Contributor analytics
+* Project health metrics
+* Release tracking
+* Performance insights
+* Workflow analytics
 
 ---
 
-# Tech Stack
+# Technology Stack
 
 ## Backend
 
-- FastAPI
-- PostgreSQL
-- Redis
-- SQLAlchemy
-- Alembic
-- Celery
-- JWT Authentication
-- WebSockets
+* FastAPI
+* PostgreSQL
+* Redis
+* SQLAlchemy
+* Alembic
+* Celery
+* JWT Authentication
+* WebSockets
 
 ---
 
 ## Frontend
 
-- React
-- TypeScript
-- Vite
-- TailwindCSS v4
-- Zustand
-- React Query
-- Framer Motion
-- DnD Kit
+* React
+* TypeScript
+* Vite
+* TailwindCSS v4
+* Zustand
+* React Query
+* Framer Motion
+* DnD Kit
 
 ---
 
 ## Infrastructure
 
-- Docker
-- Docker Compose
-- Nginx
-- GitHub Actions
-- Prometheus
-- Grafana
-- OpenTelemetry
+* Docker
+* Docker Compose
+* Nginx
+* GitHub Actions
+* Prometheus
+* Grafana
+* OpenTelemetry
 
 ---
 
 # Architecture
 
-FluxForge follows a scalable monorepo architecture designed for modularity, maintainability, and production-grade deployment workflows.
+The ChendyForge Platform follows a scalable monorepo architecture designed for modularity, maintainability, contributor friendliness, and enterprise-grade development workflows.
 
 ```txt
-fluxforge/
+chendyforge/
 │
 ├── apps/
 │   ├── api/               # FastAPI backend
@@ -139,7 +143,7 @@ fluxforge/
 ├── packages/
 │   ├── ui/                # Shared UI library
 │   ├── types/             # Shared types
-│   └── config/            # Shared configs
+│   └── config/            # Shared configuration
 │
 ├── infrastructure/
 │   ├── docker/
@@ -149,10 +153,43 @@ fluxforge/
 ├── docs/
 │   ├── architecture/
 │   ├── diagrams/
+│   ├── roadmap/
 │   └── screenshots/
 │
 └── .github/
 ```
+
+---
+
+# Development Status
+
+## Current Milestone
+
+### v0.2.0 — Workflow Engine
+
+---
+
+## Completed
+
+* Monorepo architecture
+* FastAPI backend foundation
+* React + TypeScript frontend
+* TailwindCSS v4 setup
+* Dashboard shell
+* Sidebar navigation
+* Kanban board UI
+* Dark SaaS design system
+* Branding migration to ChendyForge
+
+---
+
+## In Progress
+
+* Routing system
+* Drag & drop board engine
+* Zustand state management
+* Backend API integration
+* Realtime synchronization
 
 ---
 
@@ -170,77 +207,67 @@ fluxforge/
 
 ---
 
-# Current Development Status
-
-## Completed
-
-- Monorepo architecture
-- FastAPI backend initialization
-- React + TypeScript frontend
-- TailwindCSS v4 setup
-- Dashboard shell
-- Sidebar navigation
-- Kanban board UI
-- Dark SaaS design system
-
----
-
-## In Progress
-
-- Routing system
-- Drag & drop Kanban engine
-- Zustand state management
-- Backend API integration
-- Realtime WebSocket synchronization
-
----
-
 # Roadmap
 
-## Phase 1 — Core Platform
+## v0.1.0 Foundation
 
-- Authentication system
-- Issue CRUD
-- Kanban engine
-- PostgreSQL integration
-- Project boards
+* Repository setup
+* Monorepo architecture
+* FastAPI initialization
+* React foundation
+* Dashboard shell
+* Kanban UI
 
----
-
-## Phase 2 — Collaboration
-
-- Realtime sync
-- Notifications
-- Discussions
-- Activity feeds
-- Team presence system
+Status: Completed
 
 ---
 
-## Phase 3 — AI Layer
+## v0.2.0 Workflow Engine
 
-- AI issue summarization
-- Duplicate detection
-- Sprint recommendations
-- Workflow intelligence
+* React Router
+* Active navigation
+* Drag & drop board
+* State management
+* Issue CRUD foundation
+* API integration
 
----
-
-## Phase 4 — Observability
-
-- Analytics dashboard
-- Monitoring stack
-- OpenTelemetry
-- Performance tracking
+Status: In Progress
 
 ---
 
-## Phase 5 — Open Source Scaling
+## v0.3.0 Realtime Collaboration
 
-- Public deployment
-- Contributor onboarding
-- Plugin ecosystem
-- Community expansion
+* WebSocket synchronization
+* Notifications
+* Live board updates
+* Activity feeds
+* Team presence system
+
+Status: Planned
+
+---
+
+## v0.4.0 AI Intelligence
+
+* AI issue summaries
+* Duplicate detection
+* Priority recommendations
+* Sprint planning assistance
+* Workflow intelligence
+
+Status: Planned
+
+---
+
+## v1.0.0 Public Beta
+
+* Public deployment
+* CI/CD pipelines
+* Monitoring stack
+* Contributor onboarding
+* Production documentation
+
+Status: Future
 
 ---
 
@@ -249,8 +276,8 @@ fluxforge/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/HendyWab/fluxforge.git
-cd fluxforge
+git clone https://github.com/HendyWab/ChendyForge.git
+cd ChendyForge
 ```
 
 ---
@@ -274,11 +301,13 @@ uvicorn app.main:app --reload
 ```
 
 Backend:
+
 ```txt
 http://127.0.0.1:8000
 ```
 
-Swagger:
+Swagger UI:
+
 ```txt
 http://127.0.0.1:8000/docs
 ```
@@ -291,48 +320,106 @@ http://127.0.0.1:8000/docs
 cd apps/web
 
 npm install
+
 npm run dev
 ```
 
 Frontend:
+
 ```txt
 http://localhost:5173
 ```
 
 ---
 
+# Git Workflow
+
+## Branch Strategy
+
+### Main
+
+Production-ready stable branch.
+
+### Develop
+
+Primary integration branch.
+
+### Feature Branches
+
+```txt
+feature/auth-system
+feature/drag-drop-board
+feature/websocket-sync
+feature/issue-crud
+feature/analytics-dashboard
+```
+
+---
+
+## Commit Convention
+
+```txt
+feat: new feature
+fix: bug fix
+refactor: code restructuring
+docs: documentation
+style: formatting
+chore: tooling/configuration
+test: tests
+```
+
+Example:
+
+```bash
+git commit -m "feat(board): implement drag and drop engine"
+```
+
+---
+
+## Merge Strategy
+
+* Pull Requests required
+* Squash Merge only
+* Protected main branch
+* Linear history
+
+---
+
 # Project Vision
 
-FluxForge aims to become:
+ChendyForge aims to become:
 
-- a flagship open-source engineering platform
-- a realtime collaborative developer workspace
-- an AI-native workflow management system
-- a scalable engineering operations platform
+* a flagship open-source engineering platform
+* an AI-native developer collaboration workspace
+* a realtime project management ecosystem
+* a modern alternative to traditional workflow tools
+* a showcase of full-stack engineering excellence
 
-The project is intentionally designed to demonstrate:
+The platform is intentionally built to demonstrate:
 
-- frontend engineering
-- backend architecture
-- realtime systems
-- AI integration
-- DevOps maturity
-- cloud-native infrastructure
-- scalable monorepo organization
+* Frontend Engineering
+* Backend Architecture
+* Realtime Systems
+* AI Integration
+* DevOps Maturity
+* Cloud-Native Infrastructure
+* Scalable Monorepo Organization
+* Open-Source Leadership
 
 ---
 
 # Contributing
 
-Contributions, feature ideas, architecture discussions, and improvements are welcome.
+Contributions, feature requests, architecture discussions, and improvements are welcome.
 
-Future contributor resources will include:
+Future contributor resources include:
 
-- contribution guides
-- issue templates
-- architecture documentation
-- development workflows
-- plugin system documentation
+* CONTRIBUTING.md
+* Architecture documentation
+* Development guides
+* Issue templates
+* Pull request templates
+* Contributor onboarding
 
 ---
 
@@ -340,7 +427,9 @@ Future contributor resources will include:
 
 ## HendyWab
 
-Building modern engineering systems, realtime platforms, and AI-native developer tooling.
+Founder and creator of ChendyForge.
+
+Building modern engineering systems, realtime platforms, AI-native developer tooling, and open-source software.
 
 ---
 
